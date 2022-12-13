@@ -1,5 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { useState } from 'react';
+
+let AddForm = () => {
+  const [newTodo, setNewTodo] = useState("");
+  const [todo, setTodo] = useState("");
+  const addTodo = (e) => {
+    e.preventDefault();
+    
+  }
+  
+}
+
 
 function App() {
   return (
