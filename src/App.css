@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.complete{
+  text-decoration: line-through;
+}
+
+.incomplete{
+  text-decoration: none;
+}
